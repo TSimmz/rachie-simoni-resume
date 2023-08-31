@@ -43,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.className} bg-gradient-to-b from-pink-400 to-pink-500 text-white`}
+        className={`${montserrat.className} bg-gradient-to-b from-pink-400 to-pink-500 text-white relative !mx-0 w-screen overflow-x-hidden antialiased`}
       >
         {children}
       </body>
